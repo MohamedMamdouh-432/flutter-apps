@@ -1,0 +1,27 @@
+name: xo_game
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.11.0
+  font_awesome_flutter: ^10.3.0
+  pixel_perfect: ^1.1.1
+  url_launcher: ^6.0.0-nullsafety.1
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "xo.jpeg"
+flutter:
+  uses-material-design: true
+  assets:
+    - ieee.png
+    - logo.jpeg
