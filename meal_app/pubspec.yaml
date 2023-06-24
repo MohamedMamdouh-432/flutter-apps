@@ -1,0 +1,43 @@
+name: meal_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_cache_manager: ^3.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+flutter_launcher_icons:
+  image_path: "food.jpeg"
+  android: true
+  ios: false
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: fonts/Raleway-Bold.ttf
+        - asset: fonts/Raleway-Regular.ttf
+          weight: 700
+        - asset: fonts/Raleway-Black.ttf
+          weight: 900
+    - family: Robot
+      fonts:
+        - asset: fonts/RobotoCondensed-Regular.ttf
+        - asset: fonts/RobotoCondensed-Bold.ttf
+          weight: 700
+        - asset: fonts/RobotoCondensed-Light.ttf
+          weight: 300
+        - asset: fonts/RobotoCondensed-Italic.ttf
+          style: italic
