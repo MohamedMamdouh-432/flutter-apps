@@ -1,0 +1,36 @@
+-- SELECT s.STUD_ID , s.stud_name, s.DEPARTMENT, s.GRADE, c.COMP_NAME
+-- FROM Organization c
+-- INNER JOIN Student s
+-- ON c.comp_id = s.comp_id
+-- WHERE s.department = 'Mechanical';
+
+-- SELECT s.STUD_ID , s.stud_name, s.DEPARTMENT, s.GRADE, c.COMP_NAME
+-- FROM Organization c
+-- INNER JOIN Student s
+-- ON c.comp_id = s.comp_id
+-- WHERE s.grade = '3th';
+
+-- SELECT c.comp_name, h.year, h.capacity, h.trust_level
+-- FROM Organization c
+-- INNER JOIN History h
+-- ON c.comp_id = h.comp_id AND c.comp_id = 1
+-- order by h.year DESC;
+-- 
+-- SELECT c.comp_name, h.trust_level, h.year, h.capacity
+-- FROM Organization c	
+-- INNER JOIN History h
+-- WHERE h.year = strftime('2021', 'now')
+-- ORDER BY h.trust_level DESC;
+
+	DELETE FROM History
+	WHERE year = 2020 ِAND comp_id = 6;
+
+
+
+
+-- INSERT INTO History(comp_id, year, capacity, trust_level)
+-- VALUES (1, '2020', 50, 80);
+
+-- SELECT *
+-- FROM Organization
+-- ORDER BY comp_id;
